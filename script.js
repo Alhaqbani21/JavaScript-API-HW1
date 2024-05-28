@@ -83,7 +83,7 @@ async function fetchCats() {
     console.log(url + element);
 
     let linkMover = document.createElement('a');
-    linkMover.href = url + '/' + element;
+    linkMover.href = url + '/status/' + element;
     linkMover.target = '_blank';
     let card = document.createElement('div');
     card.classList.add('card');
