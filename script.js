@@ -11,7 +11,7 @@ const resCodes = {
   206: 'Partial Content',
   207: 'Multi-Status',
   208: 'Already Reported',
-  214: 'Transformation Applied', // Non-standard
+  214: 'Transformation Applied',
   226: 'IM Used',
   300: 'Multiple Choices',
   301: 'Moved Permanently',
@@ -40,7 +40,7 @@ const resCodes = {
   416: 'Range Not Satisfiable',
   417: 'Expectation Failed',
   418: "I'm a teapot",
-  420: 'Enhance Your Calm', // Non-standard
+  420: 'Enhance Your Calm',
   421: 'Misdirected Request',
   422: 'Unprocessable Entity',
   423: 'Locked',
@@ -75,10 +75,6 @@ const resCodes = {
   599: 'Network Connect Timeout Error',
 };
 let url = 'https://http.cat/';
-
-// for (element in resCodes) {
-//   console.log(resCodes[element]);
-// }
 
 let flexContainer = document.getElementById('flex-container');
 async function fetchCats() {
