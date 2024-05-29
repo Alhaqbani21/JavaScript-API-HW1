@@ -79,7 +79,6 @@ let url = 'https://http.cat/';
 let flexContainer = document.getElementById('flex-container');
 async function fetchCats() {
   for (element in resCodes) {
-    let res = await fetch(url + element, { method: 'GET' });
     console.log(url + element);
 
     let linkMover = document.createElement('a');
